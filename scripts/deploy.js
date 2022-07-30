@@ -1,3 +1,5 @@
+require("@nomiclabs/hardhat-ethers");
+
 async function main() {
     const HelloWorld = await ethers.getContractFactory("HelloWorld");
  
