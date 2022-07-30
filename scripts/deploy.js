@@ -1,7 +1,7 @@
 require("@nomiclabs/hardhat-ethers");
 
 async function main() {
-    const HelloWorld = await ethers.getContractFactory("HelloWorld");
+    const HelloWorld = await ethers.getContractFactory("");
  
     /** Mulai penyebaran, kembalikan janji yang diselesaikan ke objek kontrak */
     const hello_world = await HelloWorld.deploy("");   
