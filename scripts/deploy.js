@@ -2,7 +2,7 @@ async function main() {
     const HelloWorld = await ethers.getContractFactory("HelloWorld");
  
     /** Mulai penyebaran, kembalikan janji yang diselesaikan ke objek kontrak */
-    const hello_world = await HelloWorld.deploy("Halo sayang");   
+    const hello_world = await HelloWorld.deploy("");   
     console.log("Selamat contract anda telah di sebarkan dengan alamat:", hello_world.address);
  }
  
